@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to PESummary's public summarypages
 
-You can use the [editor on GitHub](https://github.com/hoyc1/public-pesummary-pages/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This page contains summarypages generated with publically available data using
+the [pesummary](https://lscsoft.docs.ligo.org/pesummary/) python package. All
+command lines that were used to generate the webpages can be found on the
+webpages themselves under the 'Downloads' tab. Details of the environment which
+was used to generate the webpages can seen under the 'Version' tab.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### GW190412
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [home.html](./GW190412/home.html)
+
+These summarypages were generated with the
+[publically available data](https://dcc.ligo.org/public/0163/P190412/008/posterior_samples.h5)
+released through the [LIGO Document Control Center Portal](https://dcc.ligo.org).
+This file can be downloaded with python by running the following,
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+>>> import requests
+>>> data = requests.get("https://dcc.ligo.org/public/0163/P190412/008/posterior_samples.h5")
+>>> with open("posterior_samples.h5", "wb") as f:
+...     f.write(data.content)
+>>>
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hoyc1/public-pesummary-pages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any questions about this page or any of the data products listed
+on this page, do not hesitate to email [Charlie Hoy](https://github.com/hoyc1).
