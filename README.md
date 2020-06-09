@@ -17,6 +17,7 @@ released through the [LIGO Document Control Center Portal](https://dcc.ligo.org)
 This file can be downloaded with python by running the following,
 
 ```markdown
+
 ```python
 >>> import requests
 >>> data = requests.get("https://dcc.ligo.org/public/0163/P190412/008/posterior_samples.h5")
@@ -24,6 +25,7 @@ This file can be downloaded with python by running the following,
 ...     f.write(data.content)
 >>>
 ```
+
 ```
 
 ### Support or Contact
