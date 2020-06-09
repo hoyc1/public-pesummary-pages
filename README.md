@@ -7,7 +7,7 @@ webpages themselves under the 'Downloads' tab. Details of the environment which
 was used to generate the webpages can seen under the 'Version' tab.
 
 
-[### GW190412 summarypages](./GW190412/home.html)
+<a href=./GW190412/home.html><h3>GW190412 summarypages</h3></a>
 
 These summarypages were generated with the
 [publically available data](https://dcc.ligo.org/public/0163/P190412/008/posterior_samples.h5)
