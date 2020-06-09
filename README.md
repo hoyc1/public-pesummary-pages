@@ -18,13 +18,11 @@ This file can be downloaded with python by running the following,
 
 ```markdown
 
-```python
 >>> import requests
 >>> data = requests.get("https://dcc.ligo.org/public/0163/P190412/008/posterior_samples.h5")
 >>> with open("posterior_samples.h5", "wb") as f:
 ...     f.write(data.content)
 >>>
-```
 
 ```
 
