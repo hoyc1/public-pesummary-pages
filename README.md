@@ -25,4 +25,4 @@ This file can be downloaded with python by running the following,
 ### Support or Contact
 
 If you have any questions about this page or any of the data products listed
-on this page, do not hesitate to email [Charlie Hoy](https://github.com/hoyc1).
+on this page, do not hesitate to email [Charlie Hoy](mailto:charlie.hoy@ligo.org).
