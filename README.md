@@ -9,7 +9,7 @@ was used to generate the webpages can seen under the 'Version' tab.
 
 ### GW190412
 
-* [home.html](./GW190412/home.html)
+* [summarypages](./GW190412/home.html)
 
 These summarypages were generated with the
 [publically available data](https://dcc.ligo.org/public/0163/P190412/008/posterior_samples.h5)
