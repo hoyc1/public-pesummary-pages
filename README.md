@@ -27,3 +27,5 @@ This file can be downloaded with python by running the following,
 
 If you have any questions about this page or any of the data products listed
 on this page, do not hesitate to email [Charlie Hoy](mailto:charlie.hoy@ligo.org).
+
+{% include footer.html %}
